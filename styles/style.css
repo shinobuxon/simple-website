@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #dafaff;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* NAVBAR START */
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-logo {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 40px;
+}
+
+.joinus {
+  color: white;
+  background-color: rgb(37, 163, 37);
+  padding: 20px 25px;
+  border-radius: 5px;
+}
+
+.login-joinus {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.login-btn {
+  color: rgb(37, 163, 37);
+}
+
+/* NAVBAR END */
+
+/* SHOWCASE START */
+
+.showcase {
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-between;
+}
+
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.bds {
+  color: rgb(37, 163, 37);
+}
+
+.text {
+  width: 500px;
+}
+
+.btn1 {
+  color: white;
+  background-color: rgb(37, 163, 37);
+  padding: 15px 35px;
+  border-radius: 5px;
+}
+
+.btn2 {
+  border: 1px solid;
+  color: rgb(37, 163, 37);
+  padding: 15px 35px;
+  border-color: rgb(37, 163, 37);
+  border-radius: 5px;
+}
+
+.image {
+  margin-top: -150px;
+}
+
+/* SHOWCASE END */
